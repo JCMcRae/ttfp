@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+@font-face {
+   font-family: 'Woolacombe-Outline';
+   src: url('fonts/Woolacombe-Outline.otf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Courier Prime';
+   src: url('fonts/Courier Prime.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Amiko';
+   src: url('fonts/Amiko-Regular.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Zacatecas';
+   src: url('fonts/Zacatecas.otf') format('truetype');
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a {
+	color: black;
+}
+
+.block {
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.subtext {
+	font-family: monospace;
+}
+
+.site {
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+	margin-bottom: 50px;
+}
+
+.index-nav {
+	font-family: 'Amiko';
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: red;
+	text-transform: uppercase;
+}
+
+.sub-index-nav {
+	font-family: 'Zacatecas';
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: rgba(82, 82, 82, .75);
+	text-transform: uppercase;
+}
+
+.index-main-text {
+	font-family: 'Woolacombe-Outline';
+	color: black;
+	font-style: italic;
+	font-size: 350px;
+}
+
+.index-sub-text {
+	font-family: monospace;
+	font-size: small;
+	letter-spacing: 2px;
+	color: rgba(82, 82, 82, .75);
+	text-transform: uppercase;
+	margin-top: -150px;
+	margin-bottom: 100px;
+}
+
+.middle {
+	margin-top: 100px;
+}
+
+.about-middle {
+	margin-top: 200px;
+}
+
+.about-text {
+	text-align: center;
+}
+
+.about-main {
+	font-family: 'Woolacombe-Outline';
+	text-transform: uppercase;
+	color: black;
+	font-style: italic;
+	font-size: 50px;
+}
+
+.about-sub {
+	font-family: 'Amiko';
+	font-size: small;
+	color: black;
+}
+
+.calendar {
+	border-right: solid black;
+	border-right-width: thin;
+}
+
+.date {
+	font-family: 'Woolacombe-Outline';
+	font-size: 150px;
+	color: red;
+}
+
+.month {
+	font-family: 'Woolacombe-Outline';
+	text-transform: uppercase;
+	font-style: italic;
+	color: rgba(82, 82, 82, .75);
+	font-size: 75px;
+}
+
+.year {
+	font-family: monospace;
+	font-size: 50px;
+}
+
+.menu-right {
+	text-align: right;
+}
+
+.dish {
+	font-family: 'Woolacombe-Outline';
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.ingredients {
+	text-transform: uppercase;
+	font-size: small;
+	color: rgba(82, 82, 82, .75);
+}
+
+.plate {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: red;
+}
+
+.footer {
+	text-align: center;
+	font-size: x-small;
+	text-transform: uppercase;
+	color: rgba(82, 82, 82, .6);
+}
+
+.footer-brand {
+	font-family: 'Woolacombe-Outline';
+	font-size: medium;
+	color: black;
+	font-style: italic;
+}
+
+.footer-contact {
+	letter-spacing: 2px;
+	color: rgba(82, 82, 82, .75);
+}
