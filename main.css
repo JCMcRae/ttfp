@@ -111,7 +111,7 @@ a {
 }
 
 .calendar {
-	border-right: solid black;
+	border-right: solid rgba(82, 82, 82, .75);
 	border-right-width: thin;
 }
 
